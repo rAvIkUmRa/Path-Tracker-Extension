@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 400px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 2.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(20, 19, 19);
+    border-radius: 3px;
+}
+
+button{
+    margin-top : 10px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: rgb(20, 19, 19);
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    transition: all 0.15s ease-out;
+}
+
+button:hover{
+    background-color: azure;
+    color: rgb(20, 19, 19);
+}
+
+#delete-btn {
+    background-color: azure;
+    color: rgb(20, 19, 19);
+    transition: all 0.15s ease-out;
+}
+
+#delete-btn:hover {
+    background-color: rgb(20, 19, 19);
+    color: azure;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-bottom : 5px;
+}
+
+a{
+    color: rgb(20, 19, 19);
+}
